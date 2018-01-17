@@ -60,7 +60,7 @@ function renderElement(forceValue) {
     // element.style.webkitTransform = 'translateX(-50%) translateY(-50%) scale(' + (1 + forceValue * 1.5) + ')';
     // background.style.webkitFilter = 'blur(' + forceValue * 30 + 'px)';
     realForce = forceValue * 100;
-    forceValueOutput.innerHTML = 'Grams: ' + realForce.toFixed(6);
+    forceValueOutput.innerHTML = 'Grams: ' + forceValue.toFixed(6);
   });
 }
 
