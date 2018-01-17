@@ -40,7 +40,7 @@ function renderElement(forceValue) {
   window.requestAnimationFrame(function() {
     // element.style.webkitTransform = 'translateX(-50%) translateY(-50%) scale(' + (1 + forceValue * 1.5) + ')';
     // background.style.webkitFilter = 'blur(' + forceValue * 30 + 'px)';
-    realForce = forceValue * 300;
+    realForce = forceValue * 600;
     forceValueOutput.innerHTML = 'Grams: ' + realForce.toFixed(6);
   });
 }
