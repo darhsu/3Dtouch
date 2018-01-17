@@ -31,7 +31,7 @@ function onTouchForceChange(e) {
 
 // the maximum force value of a click event is 3
 function onClickForceChange(e) {
-  renderElement((e.webkitForce * 100) );
+  renderElement((e.webkitForce) );
 }
 
 
